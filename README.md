@@ -42,65 +42,36 @@ Pick one or compete in all three!
 **Examples**: HR assistants, document analyzers, meeting summarizers  
 **[View Starter Kit](./starter-kits/enterprise-agents/)**
 
-## Timeline
-
-**Week 1: Live Battles** (Feb 16-20)
-
-- Register for the Agents League - [Register Here](https://aka.ms/agentsleague/register)
-- Watch live coding battles on Microsoft Reactor - see how it's done!
-  - Mon Feb 16: Creative Apps battle
-  - Wed Feb 18: Reasoning Agents battle
-  - Fri Feb 20: Enterprise Agents battle
-- Get inspired and start building your project
-- Join track-specific Discord channels
-
-**Week 2: Community Week** (Feb 23-27)
-- Attend AMAs with track owners
-    - Mon Feb 23: Creative Apps AMA and Show & Tell
-    - Wed Feb 25: Reasoning Agents AMA and Show & Tell
-    - Fri Feb 27: Enterprise Agents AMA and Show & Tell
-- Check out experts' progress in Show & Tell sessions
-- Ask your questions and get help on Discord
-- Finalize your project and [create a submission issue](https://github.com/microsoft/agentsleague/issues/new?template=project.yml)
-- Vote for your favorite projects
-
-**Deadline**: **Sunday, March 1, 2025 at 11:59 PM PT**  
-
 ## How to Participate
 
-### 1. Choose Your Track
-Pick one of the challenge tracks based on your interests:
+### 1. Register
+[**Register for Agents League**](https://aka.ms/agentsleague/register) - Sign up to get updates and access to exclusive content
+
+### 2. Choose Your Track
 - **Creative Apps** - Build with GitHub Copilot
 - **Reasoning Agents** - Build with Azure AI Foundry  
 - **Enterprise Agents** - Build with M365 Toolkit
 
-Browse: [`starter-kits/`](./starter-kits/)
+Browse [`starter-kits/`](./starter-kits/) for setup guides and examples
 
-### 2. Join us on Discord
-- Join [Discord](https://discord.gg/REmjGvvFpW)
-- Introduce yourself
-- Join your track-specific channel(s)
+### 3. Watch & Learn
+Tune into live coding battles on [Microsoft Reactor](https://aka.ms/agentsleague/battles):
+- **Mon Feb 16**: Creative Apps battle
+- **Wed Feb 18**: Reasoning Agents battle
+- **Fri Feb 20**: Enterprise Agents battle
 
-### 3. Build Your Project
-- Follow the starter kit setup instructions
-- Implement the challenge requirements for your track
-- Make it creative, functional, and well-documented
-- Test thoroughly and create a demo video
-- Push your code to a **public GitHub repository**
+### 4. Build Your Project
+- Follow your starter kit instructions
+- Create something unique and functional
+- Make a demo video
+- Push to a **public GitHub repository**
 
-### 4. Submit Your Project
-Before **March 1, 2025 at 11:59 PM PT**:
-1. Push your complete project to GitHub (public repo)
-2. [Create a submission issue](https://github.com/microsoft/agentsleague/issues/new?template=project.yml)
-3. Fill out all required fields (repo URL, demo video, tech stack, etc.)
-4. Submit and wait for confirmation
+### 5. Submit by March 1
+[Create a submission issue](https://github.com/microsoft/agentsleague/issues/new?template=project.yml) before **Sunday, March 1, 2025 at 11:59 PM PT**
 
-### 5. Engage with the Community
-- 🔴 **Watch live coding battles** on [Microsoft Reactor](https://aka.ms/agentsleague/battles) (Feb 16, 18, 20) - see experts build in real-time!
-- 💬 **Join [Discord](https://discord.gg/REmjGvvFpW)** for support and discussions
-- 🎤 **Attend AMAs** with track owners
-- 📣 **Share your progress** in Show & Tell sessions
-- 🗳️ **Vote** for your favorite projects for Fan Favorite bonus!
+### 6. Join the Community
+- **[Discord](https://aka.ms/agentsleague/discord)** - Get help, share progress, vote for favorites
+- **AMAs & Show & Tell** - Feb 23, 25, 27 (track-specific sessions)
 
 ## Judging
 
