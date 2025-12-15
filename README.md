@@ -1,10 +1,10 @@
 # Agents League
 
+<img width="4404" height="2475" alt="agentsleague_v2" src="https://github.com/user-attachments/assets/4a6d085b-cecb-448d-b0f9-b35a49c397c6" />
+
 **A 2-week AI developer challenge with live coding battles, community building, and competition.**
 
 Build innovative AI agents using GitHub Copilot, Azure AI Foundry, or M365 Agents Toolkit. Compete for recognition, network with developers globally, and get feedback from Microsoft product teams.
-
----
 
 ## 🎯 What's Agents League?
 
@@ -16,8 +16,6 @@ A **2-week developer competition** combining:
 - **🏆 Recognition** - Winners earn amazing prizes
 
 **Open to everyone** - all skill levels welcome! Watch the battles for inspiration, then build one project or compete in all three tracks.
-
----
 
 ## 🎮 Three Challenge Tracks
 
@@ -44,8 +42,6 @@ Pick one or compete in all three!
 **Examples**: HR assistants, document analyzers, meeting summarizers  
 **[📦 View Starter Kit](./starter-kits/enterprise-agents/)**
 
----
-
 ## 📅 Timeline
 
 **Week 1: Live Battles** (Feb 16-20)
@@ -69,8 +65,6 @@ Pick one or compete in all three!
 - Vote for your favorite projects
 
 **Deadline**: **Sunday, March 1, 2025 at 11:59 PM PT**  
-
----
 
 ## 🚀 How to Participate
 
@@ -108,8 +102,6 @@ Before **March 1, 2025 at 11:59 PM PT**:
 - 📣 **Share your progress** in Show & Tell sessions
 - 🗳️ **Vote** for your favorite projects for Fan Favorite bonus!
 
----
-
 ## 🏆 Judging
 
 Projects are evaluated by experts and product teams on:
@@ -121,8 +113,6 @@ Projects are evaluated by experts and product teams on:
 
 **Bonus**: Community votes for Fan Favorite + Product Team Pick
 
----
-
 ## 📚 Resources
 
 ### 📦 Starter Kits (with setup guides & examples)
@@ -130,15 +120,11 @@ Projects are evaluated by experts and product teams on:
 - [Reasoning Agents](./starter-kits/reasoning-agents/) - Azure AI Foundry  
 - [Enterprise Agents](./starter-kits/enterprise-agents/) - M365 Toolkit
 
----
-
 ## 💬 Community & Support
 
 - **Discord**: [Join Agents League Arena](https://aka.ms/agentsleague/discord) - Get help, share progress, vote
 - **YouTube**: [Microsoft Reactor](https://aka.ms/reactor) - Watch live battles and replays
 - **Issues**: [Report bugs](https://github.com/microsoft/agentsleague/issues) - Found a problem? Let us know
-
----
 
 <div align="center">
 
