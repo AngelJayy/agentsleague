@@ -6,10 +6,8 @@
   
 ## Register first to participate!
 
-<a href="https://aka.ms/agentsleague/register" style="text-decoration: none;">
-  <div style="background: linear-gradient(135deg, #4A90E2 0%, #9B59B6 100%); padding: 15px 40px; border-radius: 25px; color: white; font-weight: bold; font-size: 18px; display: inline-block; box-shadow: 0 4px 15px rgba(74, 144, 226, 0.4);">
-    🚀 REGISTER NOW
-  </div>
+<a href="https://aka.ms/agentsleague/register">
+  <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='280' height='60'%3E%3Cdefs%3E%3ClinearGradient id='grad1' x1='0%25' y1='0%25' x2='100%25' y2='0%25'%3E%3Cstop offset='0%25' style='stop-color:%234A90E2;stop-opacity:1' /%3E%3Cstop offset='100%25' style='stop-color:%239B59B6;stop-opacity:1' /%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='280' height='60' rx='30' fill='url(%23grad1)'/%3E%3Ctext x='140' y='38' font-family='Arial, sans-serif' font-size='20' font-weight='bold' fill='white' text-anchor='middle'%3E🚀 REGISTER NOW%3C/text%3E%3C/svg%3E" alt="Register Now" />
 </a>
 
 </div>
@@ -120,10 +118,8 @@ Projects are evaluated by experts and product teams on:
 
 ### Register for Agents League!
 
-<a href="https://aka.ms/agentsleague/register" style="text-decoration: none;">
-  <div style="background: linear-gradient(135deg, #4A90E2 0%, #9B59B6 100%); padding: 12px 35px; border-radius: 20px; color: white; font-weight: bold; font-size: 16px; display: inline-block; box-shadow: 0 4px 15px rgba(74, 144, 226, 0.4);">
-    🎉 REGISTER
-  </div>
+<a href="https://aka.ms/agentsleague/register">
+  <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='56'%3E%3Cdefs%3E%3ClinearGradient id='grad2' x1='0%25' y1='0%25' x2='100%25' y2='0%25'%3E%3Cstop offset='0%25' style='stop-color:%234A90E2;stop-opacity:1' /%3E%3Cstop offset='100%25' style='stop-color:%239B59B6;stop-opacity:1' /%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='180' height='56' rx='28' fill='url(%23grad2)'/%3E%3Ctext x='90' y='36' font-family='Arial, sans-serif' font-size='18' font-weight='bold' fill='white' text-anchor='middle'%3E🎉 REGISTER%3C/text%3E%3C/svg%3E" alt="Register" />
 </a>
 
 ---
