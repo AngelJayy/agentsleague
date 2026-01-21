@@ -348,6 +348,10 @@ Access official Microsoft documentation, tutorials, and learning paths:
 
 **No.** You cannot submit existing projects that were developed for your company or for customers. All submissions must be original work created specifically for this hackathon. This ensures a fair competition and protects any confidential or proprietary information.
 
+### Do I need to use my own tenant?
+
+**Yes.** Candidates are expected to use their own Microsoft 365 tenant for development and testing. We recommend using a dedicated developer tenant to avoid impacting production environments. For detailed information on setting up a Copilot development environment, please refer to the [Microsoft 365 Copilot extensibility prerequisites](https://aka.ms/extend-Copilot-sandbox).
+
 ---
 
 Questions? Join [Discord](https://aka.ms/agentsleague/discord) #enterprise-agents channel
