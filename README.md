@@ -2,6 +2,20 @@
 
 <img width="4404" height="2475" alt="agentsleague_v2" src="https://github.com/user-attachments/assets/4a6d085b-cecb-448d-b0f9-b35a49c397c6" />
 
+<div align="center">
+  
+## Register first to participate!
+
+<a href="https://aka.ms/agentsleague/register" style="text-decoration: none;">
+  <div style="background: linear-gradient(135deg, #4A90E2 0%, #9B59B6 100%); padding: 15px 40px; border-radius: 25px; color: white; font-weight: bold; font-size: 18px; display: inline-block; box-shadow: 0 4px 15px rgba(74, 144, 226, 0.4);">
+    🚀 REGISTER NOW
+  </div>
+</a>
+
+</div>
+
+---
+
 **A 2-week AI developer challenge with live coding battles, community building, and competition.**
 
 Build innovative AI agents using GitHub Copilot, Azure AI Foundry, or M365 Agents Toolkit. Compete for recognition, network with developers globally, and get feedback from Microsoft product teams.
@@ -31,24 +45,31 @@ Pick one or compete in all three!
 
 ### 1. Register
 
-[**Register for Agents League**](https://aka.ms/agentsleague/register) - Sign up to get updates and access to exclusive content
+**Register 👉 [aka.ms/agentsleague/register](https://aka.ms/agentsleague/register)**
+
+Registration gives you:
+
+- ✅ Official participant status
+- ✅ Eligibility for prizes and recognition
 
 ### 2. Choose Your Track
 
 - **Creative Apps** - Build with GitHub Copilot
 - **Reasoning Agents** - Build with Azure AI Foundry  
-- **Enterprise Agents** - Build with M365 Toolkit
+- **Enterprise Agents** - Build with M365 Agents Toolkit
 
 Browse [`starter-kits/`](./starter-kits/) for setup guides and examples
 
 ### 3. Watch & Learn
 
 **Week 1: Live Battles** - Watch experts build in real-time on [Microsoft Reactor](https://aka.ms/agentsleague/battles)
+
 - **Tue Feb 17, 9 AM PT** - 🎨 Creative Apps [Watch Live →](https://aka.ms/agentsleague/battle1)
 - **Wed Feb 18, 9 AM PT** - 🧠 Reasoning Agents [Watch Live →](https://aka.ms/agentsleague/battle2)
 - **Thu Feb 19, 9 AM PT** - 💼 Enterprise Agents [Watch Live →](https://aka.ms/agentsleague/battle3)
 
 **Week 2: AMAs & Show & Tell** - Ask questions, get help, see community progress on [Discord](https://aka.ms/agentsleague/discord)
+
 - **Tue Feb 24, 9 AM PT** - 🎨 Creative Apps [Join on Discord →](https://aka.ms/agentsleague/discord)
 - **Wed Feb 25, 9 AM PT** - 🧠 Reasoning Agents [Join on Discord →](https://aka.ms/agentsleague/discord)
 - **Thu Feb 26, 9 AM PT** - 💼 Enterprise Agents [Join on Discord →](https://aka.ms/agentsleague/discord)
@@ -70,6 +91,7 @@ Open a new issue in this repo using the [project submission template](https://gi
 ## Judging
 
 Projects are evaluated by experts and product teams on:
+
 - **Meets challenge requirements** - Does it solve the problem?
 - **Problem-solving approach** - Smart and logical?
 - **Creativity** - Unique or innovative?
@@ -96,7 +118,17 @@ Projects are evaluated by experts and product teams on:
 
 ## 🚀 Ready to Compete?
 
-[🗒️ Register for the Agents League](https://aka.ms/agentsleague/register) • [🎮 Join Discord](https://aka.ms/agentsleague/discord) • [📦 Browse Starter Kits](./starter-kits/) • [📝 Submit Your Project](https://github.com/microsoft/agentsleague/issues/new?template=project.yml)
+### Register for Agents League!
+
+<a href="https://aka.ms/agentsleague/register" style="text-decoration: none;">
+  <div style="background: linear-gradient(135deg, #4A90E2 0%, #9B59B6 100%); padding: 12px 35px; border-radius: 20px; color: white; font-weight: bold; font-size: 16px; display: inline-block; box-shadow: 0 4px 15px rgba(74, 144, 226, 0.4);">
+    🎉 REGISTER
+  </div>
+</a>
+
+---
+
+[🎮 Join Discord](https://aka.ms/agentsleague/discord) • [📦 Browse Starter Kits](./starter-kits/) • [📝 Submit Your Project](https://github.com/microsoft/agentsleague/issues/new?template=project.yml)
 
 **Questions?** Ask on [Discord](https://aka.ms/agentsleague/discord)
 
