@@ -98,9 +98,6 @@ Projects are evaluated by experts and product teams using this rubric:
 - **Reliability & Safety (20%)** — Solid patterns, avoids obvious pitfalls
 - **Community vote (10)%** via the Discord poll available at https://aka.ms/agentsleague/discord
 
-**Bonus Points:**
-- **+10 Fan Favorite** — Community vote via Discord poll
-- **+10 Product Team Pick** — Selected by Microsoft product teams
 
 ## Prizes & Recognition
 
