@@ -6,7 +6,7 @@ Welcome to the Reasoning Agents track! In this challenge, you'll build a multi-a
 
 ---
 
-## � Prerequisites
+## Prerequisites
 
 Before starting this challenge, ensure you have the following:
 
@@ -38,9 +38,9 @@ Before starting this challenge, ensure you have the following:
 
 ---
 
-## 🛠️ Environment Setup
+## 🛠️ Environment Setup Guidance
 
-Follow these steps to set up your development environment:
+Tips on setting up your development environment:
 
 ### Step 1: Clone the Repository
 ```bash
@@ -105,7 +105,7 @@ If successful, you'll see: `✅ Setup verified! You're ready to build agents.`
 
 ---
 
-## �💡 Project Ideas
+## Project Ideas
 
 In this track, we encourage you to create a multi-agent solution, using one of the following development approaches.
 
