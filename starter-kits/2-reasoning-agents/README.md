@@ -59,12 +59,8 @@ python3 -m venv .venv
 source .venv/bin/activate
 ```
 
-### Step 3: Install Dependencies
-```bash
-pip install -r requirements.txt
-```
 
-### Step 4: Set Up Azure Credentials
+### Step 3: Set Up Azure Credentials
 
 1. Go to [Microsoft Foundry Portal](https://ai.azure.com)
 2. Create or select your **AI Project**
@@ -96,12 +92,6 @@ AZURE_AI_MODEL_DEPLOYMENT=gpt-4o
 > [!WARNING]
 > Never commit your `.env` file to GitHub! It's already in `.gitignore`.
 
-### Step 5: Verify Your Setup
-```bash
-python src/verify_setup.py
-```
-
-If successful, you'll see: `✅ Setup verified! You're ready to build agents.`
 
 ---
 
