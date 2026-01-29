@@ -2,7 +2,7 @@
 
 **Track**: Battle #1 - Creative Apps with GitHub Copilot  
 
-Welcome to the Creative Apps track! In this challenge, you will harness the power of **GitHub Copilot** and **VS Code** to build innovative, imaginative applications that push yourc reativity. Your goal is to create applications that showcase the potential of AI-assisted development while delivering unique, engaging user experiences. All application types are welcome — web apps, CLI tools, games, mobile apps, desktop applications, and beyond—**maximum creativity is encouraged!**
+Welcome to the Creative Apps track! In this challenge, you will harness the power of **GitHub Copilot** and **VS Code** to build innovative, imaginative applications that push your creativity. Your goal is to create applications that showcase the potential of AI-assisted development while delivering unique, engaging user experiences. All application types are welcome — web apps, CLI tools, games, mobile apps, desktop applications, and beyond—**maximum creativity is encouraged!**
 
 ---
 
@@ -73,7 +73,7 @@ Install development tools based on your project needs:
 
 - [Git](https://git-scm.com/) for version control
 - [Node.js](https://nodejs.org/) for JavaScript/TypeScript development
-- Language runtimes for Python, Java, Go,or other languages you plan to use
+- Language runtimes for Python, Java, Go, or other languages you plan to use
 
 See the full list of [additional components](https://code.visualstudio.com/docs/setup/additional-components).
 
