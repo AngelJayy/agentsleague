@@ -1,3 +1,4 @@
+'use client';
 import React, { useState } from 'react';
 import { Zap, RefreshCw, Target, Clock, DollarSign } from 'lucide-react';
 
@@ -13,10 +14,7 @@ export default function ResilienceFlow() {
       const seed = userInput.length;
       setMetrics({
         outfall: `${Math.floor((seed % 15) + 5)} Days`,
-        revenue: `-$${(seed * 0.18 + Math.random()).toFixed(1)}M`,
-        signature: `Pattern Alpha-${seed % 10}`,
-        stratA: { title: seed > 25 ? "GLOBAL REROUTING" : "NEARSHORE PIVOT", cost: "$450k", mitigation: "85%" },
-        stratB: { title: "MARKET PRIORITIZATION", cost: "$120k", mitigation: "60%" }
+        revenue: `-$${(seed * 0.18 + Math.random()).toFixed(1)}M`
       });
       setLoading(false);
     }, 1200);
@@ -28,25 +26,22 @@ export default function ResilienceFlow() {
         RESILIENCEFLOW <span className="text-blue-400">V2.0</span>
       </h1>
       <textarea 
-        className="w-full bg-[#0a0f1a] border border-slate-800 p-4 rounded-xl mb-4 h-32 outline-none focus:border-blue-500"
+        className="w-full bg-[#0a0f1a] border border-slate-800 p-4 rounded-xl mb-4 h-32 outline-none"
         placeholder="Ingest crisis (e.g. Suez Canal blockage)..."
         value={userInput}
         onChange={(e) => setUserInput(e.target.value)}
       />
-      <button 
-        onClick={runGlobalSimulation} 
-        className="w-full bg-blue-600 py-4 rounded-xl font-bold uppercase tracking-widest hover:bg-blue-500 transition-all mb-10"
-      >
+      <button onClick={runGlobalSimulation} className="w-full bg-blue-600 py-4 rounded-xl font-bold uppercase mb-10 tracking-widest">
         {loading ? "Analyzing..." : "Run Global Simulation"}
       </button>
 
       {metrics && (
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 animate-in fade-in slide-in-from-bottom-4">
-          <div className="bg-[#1a0f14] border border-red-500/20 p-6 rounded-xl">
+        <div className="grid grid-cols-2 gap-6 animate-in fade-in slide-in-from-bottom-4">
+          <div className="bg-[#1a0f14] border border-red-500/20 p-6 rounded-xl text-center">
             <p className="text-[10px] text-red-400 font-bold uppercase mb-2">Stock Outfall</p>
             <p className="text-4xl font-black">{metrics.outfall}</p>
           </div>
-          <div className="bg-[#1a140f] border border-orange-500/20 p-6 rounded-xl">
+          <div className="bg-[#1a140f] border border-orange-500/20 p-6 rounded-xl text-center">
             <p className="text-[10px] text-orange-400 font-bold uppercase mb-2">Revenue Hit</p>
             <p className="text-4xl font-black">{metrics.revenue}</p>
           </div>
