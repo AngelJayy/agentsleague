@@ -1,51 +1,54 @@
+'use client';
 import React, { useState } from 'react';
-import { Zap, RefreshCw, Target, Clock, DollarSign } from 'lucide-react';
 
 export default function ResilienceFlow() {
   const [userInput, setUserInput] = useState("");
   const [loading, setLoading] = useState(false);
-  const [metrics, setMetrics] = useState(null);
+  const [res, setRes] = useState<any>(null);
 
-  const runGlobalSimulation = () => {
+  const runSimulation = () => {
     if (!userInput) return;
     setLoading(true);
     setTimeout(() => {
       const seed = userInput.length;
-      setMetrics({
+      setRes({
         outfall: `${Math.floor((seed % 15) + 5)} Days`,
-        revenue: `-$${(seed * 0.18 + Math.random()).toFixed(1)}M`,
-        signature: `Pattern Alpha-${seed % 10}`,
-        stratA: { title: seed > 25 ? "GLOBAL REROUTING" : "NEARSHORE PIVOT", cost: "$450k", mitigation: "85%" },
-        stratB: { title: "MARKET PRIORITIZATION", cost: "$120k", mitigation: "60%" }
+        revenue: `-$${(seed * 0.18 + Math.random()).toFixed(1)}M`
       });
       setLoading(false);
-    }, 1200);
+    }, 1000);
   };
 
   return (
-    <div className="min-h-screen bg-[#020817] text-slate-100 p-8 font-mono">
-      <h1 className="text-2xl font-black italic mb-8 border-b border-slate-800 pb-4">
-        RESILIENCEFLOW <span className="text-blue-400">V2.0</span>
+    <div className="min-h-screen bg-[#020817] text-white p-8 font-mono">
+      <h1 className="text-2xl font-black italic mb-8 border-b border-slate-800 pb-4 uppercase tracking-tighter">
+        ResilienceFlow <span className="text-blue-400">V2.0</span>
       </h1>
-      <textarea 
-        className="w-full bg-[#0a0f1a] border border-slate-800 p-4 rounded-xl mb-4 h-32 outline-none"
-        placeholder="Ingest crisis (e.g. Suez Canal blockage)..."
-        value={userInput}
-        onChange={(e) => setUserInput(e.target.value)}
-      />
-      <button onClick={runGlobalSimulation} className="w-full bg-blue-600 py-4 rounded-xl font-bold uppercase mb-10">
-        {loading ? "Analyzing..." : "Run Global Simulation"}
-      </button>
+      
+      <div className="bg-[#0a0f1a] border border-slate-800 rounded-xl p-4 mb-8 shadow-2xl">
+        <textarea 
+          className="w-full bg-transparent outline-none text-sm h-32 mb-4"
+          placeholder="Ingest crisis (e.g. Suez Canal blockage)..."
+          value={userInput}
+          onChange={(e) => setUserInput(e.target.value)}
+        />
+        <button 
+          onClick={runSimulation}
+          className="w-full bg-blue-600 hover:bg-blue-500 py-4 rounded-lg font-bold uppercase tracking-widest transition-all"
+        >
+          {loading ? "Analyzing Neural Logic..." : "Run Global Simulation"}
+        </button>
+      </div>
 
-      {metrics && (
-        <div className="grid grid-cols-2 gap-6 animate-in fade-in">
-          <div className="bg-[#1a0f14] border border-red-500/20 p-6 rounded-xl text-center">
+      {res && (
+        <div className="grid grid-cols-2 gap-6 animate-in fade-in duration-500">
+          <div className="bg-[#1a0f14] border border-red-500/20 p-8 rounded-2xl text-center">
             <p className="text-[10px] text-red-400 font-bold uppercase mb-2">Stock Outfall</p>
-            <p className="text-4xl font-black">{metrics.outfall}</p>
+            <p className="text-5xl font-black">{res.outfall}</p>
           </div>
-          <div className="bg-[#1a140f] border border-orange-500/20 p-6 rounded-xl text-center">
+          <div className="bg-[#1a140f] border border-orange-500/20 p-8 rounded-2xl text-center">
             <p className="text-[10px] text-orange-400 font-bold uppercase mb-2">Revenue Hit</p>
-            <p className="text-4xl font-black">{metrics.revenue}</p>
+            <p className="text-5xl font-black">{res.revenue}</p>
           </div>
         </div>
       )}
